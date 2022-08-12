@@ -278,7 +278,7 @@
         color: #414141; }
   .kosmodrom__portfolio .kosmo__main_page {
     background: #0A0A0A;
-    padding: 90px;
+    padding: 90px 0;
     position: relative;
     z-index: 1; }
     .kosmodrom__portfolio .kosmo__main_page .main__backgr {
@@ -537,5 +537,170 @@
           font-size: 16px;
           line-height: 26px;
           color: #E0E0E0; }
+
+@media (max-width: 1350px) {
+  .kosmodrom__portfolio .kosm__proj_feature .container .feature__wrapper {
+    grid-gap: 60px;
+    padding-left: 45px; } }
+@media (max-width: 1250px) {
+  .kosmodrom__portfolio .kosm__proj_feature .container .feature__wrapper {
+    grid-template-columns: 1fr 1fr; }
+  .kosmodrom__portfolio .kosmo__checkout .top__wrapper .section__description {
+    max-width: 500px; } }
+@media (max-width: 1100px) {
+  .kosmodrom__portfolio .first__screen .main__content_wrapper .image__wrapper img {
+    width: 90%; } }
+@media (max-width: 992px) {
+  .kosmodrom__portfolio .section__header {
+    font-size: 22px;
+    line-height: 24px; }
+    .kosmodrom__portfolio .section__header.big {
+      font-size: 28px;
+      line-height: 32px; }
+  .kosmodrom__portfolio .first__screen {
+    background-position-y: 0;
+    padding: 25px 0; }
+    .kosmodrom__portfolio .first__screen .main__content_wrapper {
+      display: flex;
+      flex-direction: column-reverse; }
+      .kosmodrom__portfolio .first__screen .main__content_wrapper .texts__wrapper {
+        position: relative;
+        top: initial;
+        bottom: initial;
+        left: initial;
+        right: initial; }
+        .kosmodrom__portfolio .first__screen .main__content_wrapper .texts__wrapper .title__wrapper .page__header {
+          font-size: 62px;
+          line-height: 76px; }
+        .kosmodrom__portfolio .first__screen .main__content_wrapper .texts__wrapper .title__wrapper .page__subheader {
+          margin-bottom: 50px;
+          font-size: 20px;
+          line-height: 24px; }
+        .kosmodrom__portfolio .first__screen .main__content_wrapper .texts__wrapper .title__wrapper .head__description {
+          margin-bottom: 50px;
+          padding-left: 20px; }
+      .kosmodrom__portfolio .first__screen .main__content_wrapper .image__wrapper {
+        position: absolute;
+        bottom: 25px;
+        right: 0; }
+        .kosmodrom__portfolio .first__screen .main__content_wrapper .image__wrapper img {
+          width: 50%; }
+  .kosmodrom__portfolio .kosm__tasks {
+    margin-top: 0;
+    padding: 50px 0;
+    margin-bottom: 0; }
+    .kosmodrom__portfolio .kosm__tasks .container {
+      justify-content: flex-start; }
+      .kosmodrom__portfolio .kosm__tasks .container .section__header {
+        font-size: 28px;
+        line-height: 32px; }
+  .kosmodrom__portfolio .kosm__proj_feature .container .section__header {
+    margin-bottom: 75px; }
+  .kosmodrom__portfolio .kosmo__typography {
+    margin-bottom: 50px; }
+    .kosmodrom__portfolio .kosmo__typography .section__header {
+      margin-bottom: 20px; }
+  .kosmodrom__portfolio .kosmo__colors {
+    margin-bottom: 50px; }
+    .kosmodrom__portfolio .kosmo__colors .section__header {
+      margin-bottom: 30px; }
+  .kosmodrom__portfolio .kosmo__main_page {
+    padding: 50px 0; }
+    .kosmodrom__portfolio .kosmo__main_page .section__header {
+      margin-bottom: 30px; }
+  .kosmodrom__portfolio .kosmo__catalog {
+    padding-top: 50px;
+    margin-bottom: 50px; }
+    .kosmodrom__portfolio .kosmo__catalog .top__wrapper {
+      flex-direction: column;
+      margin-bottom: 20px; }
+  .kosmodrom__portfolio .kosmo__checkout {
+    padding-bottom: 50px;
+    margin-bottom: 50px; }
+    .kosmodrom__portfolio .kosmo__checkout .mob__bg {
+      height: 320px; }
+    .kosmodrom__portfolio .kosmo__checkout .top__wrapper {
+      flex-direction: column;
+      margin-bottom: 20px; }
+      .kosmodrom__portfolio .kosmo__checkout .top__wrapper .section__description {
+        max-width: 600px; }
+    .kosmodrom__portfolio .kosmo__checkout .imgs__wrapper {
+      margin-bottom: 0; }
+      .kosmodrom__portfolio .kosmo__checkout .imgs__wrapper .img {
+        margin-right: 20px; }
+    .kosmodrom__portfolio .kosmo__checkout .mob__imgs_wrapper .img {
+      margin-right: 20px; }
+  .kosmodrom__portfolio .kosmo__profile {
+    padding-bottom: 50px;
+    margin-bottom: 50px; }
+    .kosmodrom__portfolio .kosmo__profile .top__wrapper {
+      flex-direction: column;
+      margin-bottom: 20px; }
+      .kosmodrom__portfolio .kosmo__profile .top__wrapper .section__description {
+        max-width: 600px; }
+    .kosmodrom__portfolio .kosmo__profile .profile__desk_imgs {
+      grid-gap: 20px;
+      margin-bottom: 20px; }
+    .kosmodrom__portfolio .kosmo__profile .mob__imgs_wrapper .img {
+      margin-right: 20px; }
+  .kosmodrom__portfolio .kosmo__adaptive {
+    margin-bottom: 50px; }
+  .kosmodrom__portfolio .kosmo__tech {
+    padding: 50px 0; } }
+@media (max-width: 768px) {
+  .kosmodrom__portfolio .first__screen .main__content_wrapper .image__wrapper {
+    left: 0;
+    top: -25px;
+    bottom: -25px;
+    overflow: hidden; }
+    .kosmodrom__portfolio .first__screen .main__content_wrapper .image__wrapper img {
+      width: 100%;
+      opacity: 0.2; }
+  .kosmodrom__portfolio .kosm__proj_feature {
+    margin-bottom: 50px; }
+    .kosmodrom__portfolio .kosm__proj_feature .container .feature__wrapper {
+      padding-left: 15px;
+      grid-template-columns: 1fr;
+      grid-gap: 40px; }
+      .kosmodrom__portfolio .kosm__proj_feature .container .feature__wrapper .feature__item .feature__number {
+        font-size: 72px; }
+      .kosmodrom__portfolio .kosm__proj_feature .container .feature__wrapper .feature__item .feature__img {
+        top: 15px; }
+        .kosmodrom__portfolio .kosm__proj_feature .container .feature__wrapper .feature__item .feature__img img {
+          width: 45px;
+          height: 45px; }
+  .kosmodrom__portfolio .kosmo__typography .font__wrapper {
+    grid-template-columns: 1fr;
+    grid-gap: 0; }
+    .kosmodrom__portfolio .kosmo__typography .font__wrapper .fw__alphabet .alphabet {
+      letter-spacing: 0.08rem; }
+  .kosmodrom__portfolio .kosmo__colors .colors__wrapper {
+    grid-template-columns: 1fr 1fr; }
+    .kosmodrom__portfolio .kosmo__colors .colors__wrapper .color__item .color {
+      margin-bottom: 10px; }
+  .kosmodrom__portfolio .kosmo__catalog .catalog__wrapper .catalog__images {
+    flex-direction: column; }
+    .kosmodrom__portfolio .kosmo__catalog .catalog__wrapper .catalog__images .image {
+      margin-right: 0;
+      width: 100%;
+      display: flex;
+      justify-content: flex-start; }
+      .kosmodrom__portfolio .kosmo__catalog .catalog__wrapper .catalog__images .image:nth-child(2) {
+        margin-top: -70%;
+        justify-content: center; }
+      .kosmodrom__portfolio .kosmo__catalog .catalog__wrapper .catalog__images .image:nth-child(3) {
+        margin-top: -130%;
+        justify-content: flex-end; }
+  .kosmodrom__portfolio .kosmo__profile .mob__bg {
+    height: 320px; } }
+@media (max-width: 768px) and (max-width: 576px) {
+  .kosmodrom__portfolio .first__screen .main__content_wrapper .texts__wrapper .title__wrapper .page__header {
+    font-size: 42px;
+    line-height: 56px; }
+  .kosmodrom__portfolio .first__screen .main__content_wrapper .texts__wrapper .title__wrapper .page__subheader {
+    font-size: 18px;
+    line-height: 22px; }
+  .kosmodrom__portfolio .kosmo__tech .tech__wrapper .col {
+    margin-right: 50px; } }
 
 /*# sourceMappingURL=main.css.map */
